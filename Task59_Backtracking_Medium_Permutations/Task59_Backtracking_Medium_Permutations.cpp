@@ -11,7 +11,7 @@ public:
         return result;
     }
 
-    void permutation(std::vector<int> arr, int n) {
+    void permutation(std::vector<int>& arr, int n) {
         if (n < 2) {
             result.push_back(arr);
         }
